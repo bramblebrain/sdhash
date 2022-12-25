@@ -1,3 +1,3 @@
 @Echo off
-py sdhash.py %*
+py %~dp0/sdhash.py %*
 pause
