@@ -6,3 +6,12 @@ Based off of Ehplodor's hash calcuation, sdhash allows you to quickly get a list
 You can either pass the model names as arguments or drag and drop the models on to the .bat (Windows). 
 
 Duplicate hashes will be in a new row after the original with a **+** after the hash indicating that it's the duplicate row
+
+
+## Changelog
+v1.02
+- Now uses the entire file for hypernetworks and embeds in order to get a unique hash.
+v1.01 
+- Fixed batch allowing for the model to be in a different directory when drag and dropping.
+v1.00 
+- Initial release
